@@ -1,15 +1,18 @@
-= Magic for minetest =
+# Magic for minetest
 
 This mod attempts to add magic abilities and more to minetest.<br/>
 Adding things which annoy players, e.g. lots of nodes, should be avoided.
 Instead, this mod tries to implement magic based comfort while the player does
 not need to use it. He/She should be able to decide to simply ignore everything
-that this mod adds.
+that this mod adds.<br/>
+Additionally, features of this mod don't need to be available everywhere, e.g.
+tree capitation. This allows adding complicated features because implementing
+the whole mod is not required (e.g. treecapitator, cave_lighting, replacer).
 
 
-=== Features ===
+### Features
 
-==== tool rotation ====
+#### tool rotation
 
 While wielding a tool, hold e (the running key aux1) and press q (the drop key)
 to rotate tools.<br/>
@@ -21,15 +24,15 @@ wielded item.<br/>
 Tool rotation costs 5 cracky_dug points.
 
 
-=== Points ===
+### Points
 
 There are … types of points: komfort, zerstoerung,
 
-==== komfort ====
+#### komfort
 
 This category refers to points regarding hassle.
 
-===== cracky_dug =====
+##### cracky_dug
 
 You can get cracky_dug points by digging nodes of the cracky group, e.g. stone.
 You get more points for a higher cracky_digging level and for harder nodes.
