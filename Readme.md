@@ -56,3 +56,6 @@ TODO:
 * matter transformation magic
 * add a machine which prints a tool's capabilities to a paper
 	This helps searching for the fastest pick on the server.
+	* show if the tool capabilities are changed by item metadata
+	* add a node for the machine and its formspec
+* add an invisibility spell

@@ -22,3 +22,5 @@ function magic_sys.before_toolrotate(player, n)
 	return true
 end
 dofile(modpath .. "toolrotate.lua")
+
+dofile(modpath .. "tool_analyzer.lua")
