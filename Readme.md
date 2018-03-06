@@ -54,8 +54,14 @@ TODO:
 * teleport magic
 * allow enchanting only when achievements were met
 * matter transformation magic
-* add a machine which prints a tool's capabilities to a paper
-	This helps searching for the fastest pick on the server.
+* tool analyzer:
 	* show if the tool capabilities are changed by item metadata
-	* add a node for the machine and its formspec
+	* fix screwdriver as tool output
+	* fix date format
+	* explain full punch interval
+	* max_drop_level
+	* disallow putting more than one book
+	* disallow swapping the item with an invalid one
+	* make it require points and e.g. an award
+	* fix appearance
 * add an invisibility spell
